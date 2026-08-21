@@ -3,89 +3,358 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DCI Hub — A Day in the Life</title>
-<link rel="stylesheet" href="assets/style.css">
+<title>DCI Battlecards — DCI Hub</title>
+<link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-
 <header class="topnav">
   <div class="nav-inner">
-    <a class="logo" href="index.html">do<span>it</span></a>
+    <a class="logo" href="../index.html">do<span>it</span></a>
     <input class="search" type="text" placeholder="Search the hub...">
     <nav class="navlinks">
-      <a href="index.html" class="active">Day in the Life</a>
-      <a href="battlecards/index.html">Battlecards</a>
-      <a href="resources/index.html">Resources</a>
+      <a href="../index.html">Day in the Life</a>
+      <a href="index.html" class="active">Battlecards</a>
+      <a href="../resources/index.html">Resources</a>
     </nav>
   </div>
 </header>
 
 <div class="wrap">
-  <span class="eyebrow"><span class="dot"></span>DCI SDRs</span>
-  <h1 class="title">A Day in the Life of an SDR</h1>
-  <p class="subtitle">A balanced day: responsiveness, alignment, skill-building, outbound execution, and reflection. Click into any step for the tools, links, and context you need.</p>
+  <div class="bc-kicker">DoiT Cloud Intelligence</div>
+  <h1 class="title">DCI SDR Battle Cards</h1>
+  <p class="subtitle">Your complete field guide for prospecting, messaging, and converting cloud-cost conversations into pipeline. Click any section below to expand it.</p>
 
-  <div class="row">
-    <a class="card" href="steps/step-01.html">
-      <div class="num">01</div><div class="rule"></div>
-      <h3>Open Computer</h3>
-      <p>Log into all tools; review tasks, meetings, and target accounts. &rarr;</p>
-    </a>
-    <a class="card" href="steps/step-02.html">
-      <div class="num">02</div><div class="rule"></div>
-      <h3>Check Slack &amp; Email</h3>
-      <p>Catch up on comms and triage prospect replies before your day gets going. &rarr;</p>
-    </a>
-    <a class="card" href="steps/step-03.html">
-      <div class="num">03</div><div class="rule"></div>
-      <h3>Check SalesLoft Analytics</h3>
-      <p>Review team performance data and LinkedIn connection activity. &rarr;</p>
-    </a>
-    <a class="card" href="steps/step-04.html">
-      <div class="num">04</div><div class="rule"></div>
-      <h3>Meet with AE</h3>
-      <p>Fast sync on priority accounts, intent signals, and daily goals. &rarr;</p>
-    </a>
-    <a class="card" href="steps/step-05.html">
-      <div class="num">05</div><div class="rule"></div>
-      <h3>AI Call Sims</h3>
-      <p>Warm up openers and objection handling before dialing.</p>
-    </a>
-  </div>
-  <div class="drop-arrow">&#8681;</div>
-  <div class="row">
-    <a class="card" href="steps/step-06.html">
-      <div class="num">06</div><div class="rule"></div>
-      <h3>Morning Cold Calls</h3>
-      <p>High-energy block focused on accounts surfaced in your morning dives. &rarr;</p>
-    </a>
-    <a class="card" href="steps/step-07.html">
-      <div class="num">07</div><div class="rule"></div>
-      <h3>LinkedIn Outreach</h3>
-      <p>Personalized touches that reinforce your calls. &rarr;</p>
-    </a>
-    <a class="card" href="steps/step-08.html">
-      <div class="num">08</div><div class="rule"></div>
-      <h3>Prospecting Block</h3>
-      <p>Build lists and research accounts to feed the pipeline. &rarr;</p>
-    </a>
-    <a class="card" href="steps/step-09.html">
-      <div class="num">09</div><div class="rule"></div>
-      <h3>Afternoon Cold Calls + Cold Emails</h3>
-      <p>Re-engage callbacks and follow up in writing. &rarr;</p>
-    </a>
-    <a class="card" href="steps/step-10.html">
-      <div class="num">10</div><div class="rule"></div>
-      <h3>Daily Recap</h3>
-      <p>Review KPIs and reset priorities for tomorrow.</p>
-    </a>
-  </div>
+  <details class="bc-section" open>
+    <summary>
+      <div><div class="s-title">ICP</div><div class="s-sub">When qualifying an account</div></div>
+      <span class="chevron">&#9656;</span>
+    </summary>
+    <div class="bc-body">
+      <p>Prioritize organizations where cloud optimization is both a leadership issue and an engineering optimization project.</p>
+      <h5>Prioritize accounts with</h5>
+      <ul>
+        <li>100–1,000+ employees, especially digital-native, software/internet, financial services, fintech, retail/consumer, telco, media, entertainment, and gaming organizations</li>
+        <li>Approximately $30K–$500K+ in monthly cloud spend across AWS, Google Cloud, and/or Azure. Emerging markets affect prioritization — e.g. Canada is emerging and will have lower cloud spend than the U.S.</li>
+        <li>Cloud-native or multi-cloud workloads with meaningful cost allocation and governance complexity</li>
+        <li>An in-house engineering, cloud infrastructure, platform, or FinOps capability</li>
+        <li>A need to connect cloud cost to business outcomes, unit economics, products, teams, or customers</li>
+        <li>Executive pressure around cloud efficiency, budget predictability, commitment planning, or return on cloud investment</li>
+      </ul>
+      <h5>Spend &amp; maturity proxies</h5>
+      <ul>
+        <li>A recent cloud invoice or public indication of large-scale cloud usage</li>
+        <li>An in-house FinOps practice or named cloud-cost owner</li>
+        <li>Existing use of cloud cost-management tools such as Vantage, CloudZero, Finout, or Apptio</li>
+        <li>Savings Plan, Reserved Instance, or other hyperscaler commitments</li>
+        <li>Hiring signals for Datadog, New Relic, Splunk, PagerDuty, Jira, cloud infrastructure, or platform engineering</li>
+        <li>Public cloud, AI, data-platform, or modernization initiatives</li>
+      </ul>
+      <div class="bc-quote">Good to know: the strongest outbound starts from a visible business problem, not a convenient calendar slot.</div>
+    </div>
+  </details>
+
+  <details class="bc-section">
+    <summary>
+      <div><div class="s-title">Value Drivers</div><div class="s-sub">When framing the pitch</div></div>
+      <span class="chevron">&#9656;</span>
+    </summary>
+    <div class="bc-body">
+      <p>DCI is strongest when cloud spend is large and complex, but leadership still lacks a clear, context-rich answer to what is driving spend, whether it's producing business value, and what should change next.</p>
+      <h5>The DCI narrative</h5>
+      <div class="bc-grid">
+        <div class="bc-mini"><h6>&#9888;&#65039; The problem</h6><p>Cloud cost data is fragmented across providers, cost centers, teams, products, and workloads. Reporting may show what happened, but not why, or what to prioritize next.</p></div>
+        <div class="bc-mini"><h6>&#127919; The outcome</h6><p>DCI combines advanced technology, AI-driven insights, and human FinOps expertise to unify fragmented cost centers, strengthen governance, and turn data into actionable strategies.</p></div>
+      </div>
+      <h5>Messaging progression — use in order</h5>
+      <ul>
+        <li>1. Name the problem</li>
+        <li>2. Show the business impact</li>
+        <li>3. Point to the desired future state</li>
+        <li>4. Offer a low-friction next step</li>
+      </ul>
+      <h5>The three intelligence layers</h5>
+      <div class="bc-grid">
+        <div class="bc-mini"><h6>Platform intelligence</h6><p>Unified multi-cloud visibility, cost-center reporting, governance, anomaly detection, and workflow support.</p></div>
+        <div class="bc-mini"><h6>AI intelligence</h6><p>AI-driven analysis that helps teams identify patterns, surface inefficiencies, and move from investigation toward action.</p></div>
+      </div>
+      <div class="bc-mini" style="margin-bottom:14px;"><h6>Human intelligence</h6><p>A Principal FinOps Resident brings expertise, business context, and a continuously evolving roadmap for business outcomes and transformation.</p></div>
+      <h5>The illusion of efficiency</h5>
+      <p>A cloud environment can look efficient on a dashboard while still hiding waste, weak attribution, unexamined commitments, or spend that can't be tied to a business outcome. DCI helps buyers move beyond "the bill went up" toward "we understand why, who owns it, what it means, and what to do next."</p>
+      <h5>By buyer type</h5>
+      <ul>
+        <li><strong>CTO / VP Engineering:</strong> cloud efficiency, architecture-aware visibility, governance, operational accountability, a credible answer for the board</li>
+        <li><strong>Technical Validator / Champion:</strong> less manual investigation, clearer ownership, actionable insights, useful workflows, low-friction integration</li>
+        <li><strong>Financial Buyer:</strong> predictability, attribution, unit economics, ROI, budget accountability, confidence that cloud investment is producing value</li>
+      </ul>
+      <div class="bc-callout">The rule: use practitioner language with operators; use business, governance, and ROI language with leadership.</div>
+    </div>
+  </details>
+
+  <details class="bc-section">
+    <summary>
+      <div><div class="s-title">Prospecting: Account Level</div><div class="s-sub">When building the account list</div></div>
+      <span class="chevron">&#9656;</span>
+    </summary>
+    <div class="bc-body">
+      <p>Start with the account-level pressure. Then identify the person most likely to feel it, own it, or fund it.</p>
+      <h5>High-value prospecting signals</h5>
+      <ul>
+        <li>Cloud spend is becoming a CFO, CEO, board, or leadership concern</li>
+        <li>Finance and engineering disagree about cloud budgets, accountability, or ROI</li>
+        <li>The company needs to attribute cloud cost to products, teams, customers, or business units</li>
+        <li>AWS, Google Cloud, and Azure cost data is fragmented across separate reports or accounts</li>
+        <li>AI, data, or self-service growth is creating budget surprises or weak guardrails</li>
+        <li>Engineers or FinOps practitioners spend too much time reconciling bills or maintaining reporting</li>
+        <li>The company is evaluating FinOps maturity, replacing a tool, or planning commitments</li>
+        <li>A budgeting cycle, renewal, commitment-planning event, funding milestone, or leadership change creates urgency</li>
+      </ul>
+      <h5>Trigger-based outreach</h5>
+      <p>React quickly to meaningful changes: cloud expansion, AI investment, new finance leadership, platform hiring, a public efficiency initiative, or a commitment milestone. The trigger should change the message — connect it to a plausible DCI problem and a relevant business outcome, don't just mention the event.</p>
+      <h5>Research workflow</h5>
+      <ul>
+        <li>1. Annual report, 10-K, earnings call, or investor materials — cloud investment, AI/data strategy, margin pressure, efficiency goals</li>
+        <li>2. Company news and press releases — acquisitions, geographic expansion, modernization, cost-control programs</li>
+        <li>3. Engineering blog and careers page — cloud, platform, observability, FinOps, data, and AI signals</li>
+        <li>4. LinkedIn and Sales Navigator — headcount growth, leadership changes, strategic initiatives, warm paths</li>
+        <li>5. Existing DoiT customer proof — match likely pain to a visibility, attribution, governance, or outcome story</li>
+        <li>6. Cloud and FinOps events — target-account speakers, attendees, and active initiatives</li>
+      </ul>
+      <div class="bc-callout">Before pulling contacts, write three notes: Why now? Which value prop fits best? Which role should hear it first?</div>
+      <h5>Value-prop mapping</h5>
+      <table>
+        <tr><th>Account Signal</th><th>Best-Fit DCI Value Prop</th></tr>
+        <tr><td>Rising cloud spend and leadership pressure</td><td>Business-outcome alignment, governance, predictable FinOps management</td></tr>
+        <tr><td>Fragmented AWS/GCP/Azure reporting</td><td>Unified multi-cloud visibility and streamlined cost-center reporting</td></tr>
+        <tr><td>No attribution by team, product, workload, or customer</td><td>Cost attribution, allocation, unit economics, leadership-ready reporting</td></tr>
+        <tr><td>AI, data, or self-service growth without guardrails</td><td>AI-driven insights, budgets, governance, proactive anomaly detection</td></tr>
+        <tr><td>Reactive firefighting or invoice surprises</td><td>Earlier detection, contextual analysis, prioritized action</td></tr>
+        <tr><td>Manual reporting and reconciliation</td><td>Workflow support, automation, reduced operational overhead</td></tr>
+        <tr><td>Recommendations without business context</td><td>Principal FinOps Resident guidance and an evolving roadmap</td></tr>
+      </table>
+    </div>
+  </details>
+
+  <details class="bc-section">
+    <summary>
+      <div><div class="s-title">Prospecting: Persona Level</div><div class="s-sub">When finding contacts</div></div>
+      <span class="chevron">&#9656;</span>
+    </summary>
+    <div class="bc-body">
+      <p>DCI Direct qualification requires both a technical buyer and an economic buyer. SREs and platform teams are important influencers and power users — engage them early, but they don't replace executive coverage.</p>
+      <h5>The buying group</h5>
+      <ul>
+        <li><strong>Technical Buyer / Primary:</strong> CTO, VP or Director of Engineering, Head of Cloud, Head of Cloud Infrastructure, Director of FinOps, or FinOps Lead</li>
+        <li><strong>Economic Buyer:</strong> CFO, COO, CEO, Finance Director, or another leader accountable for budget and return on cloud investment</li>
+        <li><strong>Technical Validator / Champion:</strong> Cloud Architect, Platform Engineer, Principal Engineer, SRE, or senior FinOps practitioner</li>
+        <li><strong>Influencer / Power User:</strong> SRE, platform engineering, finance operations, product, or data stakeholders who depend on cost visibility and governance</li>
+      </ul>
+      <h5>Coverage model</h5>
+      <ul>
+        <li><strong>Standard ICP account:</strong> save 4–6 prospects, including at least one technical buyer, one economic buyer, and one technical validator/champion</li>
+        <li><strong>Target Account:</strong> expand to 5–10 contacts across practitioner, director, VP, and C-level stakeholders</li>
+        <li><strong>Required coverage:</strong> don't rely on a technical-only thread — build access to the economic layer before late-stage evaluation</li>
+      </ul>
+      <h5>Boolean search families</h5>
+      <table>
+        <tr><th>Group</th><th>String</th></tr>
+        <tr><td>Engineering &amp; cloud leadership</td><td>"cto" OR "vp of engineering" OR "head of cloud" OR "head of cloud infrastructure" OR "vp of infrastructure" OR "director of engineering"</td></tr>
+        <tr><td>FinOps &amp; cost leadership</td><td>"director of finops" OR "finops lead" OR "cloud finance" OR "cloud cost" OR "cost optimization"</td></tr>
+        <tr><td>Technical validators &amp; champions</td><td>"cloud architect" OR "platform engineer" OR "principal engineer" OR sre OR "site reliability engineer"</td></tr>
+        <tr><td>Economic buyers</td><td>cfo OR coo OR ceo OR "finance director" OR "vp of finance"</td></tr>
+        <tr><td>Cloud &amp; multi-cloud signals</td><td>aws OR gcp OR azure OR multicloud OR "multi-cloud"</td></tr>
+      </table>
+      <div class="bc-callout">Scope every search against the saved account list and prioritize warm paths. Cleanup: NOT (consultant OR advisor OR recruiter OR student OR sales OR marketing)</div>
+    </div>
+  </details>
+
+  <details class="bc-section">
+    <summary>
+      <div><div class="s-title">Persona Cards</div><div class="s-sub">When targeting a role</div></div>
+      <span class="chevron">&#9656;</span>
+    </summary>
+    <div class="bc-body">
+      <h5>The CTO / VP Engineering — Primary decision-maker &amp; technical buyer</h5>
+      <p>Technical executive accountable for engineering efficiency, cloud strategy, and the business impact of platform investment.</p>
+      <ul>
+        <li><strong>Key pain points:</strong> cloud spend growing faster than the business, board pressure for ROI, fragmented multi-cloud data, efficiency demands without slowing velocity</li>
+        <li><strong>Decision criteria:</strong> clear business impact and ROI, low implementation risk, strong governance, confidence insights translate into action</li>
+        <li><strong>Engagement tips:</strong> lead with accountability, business outcomes, governance, and time-to-value. Establish technical credibility without a first-call feature tour</li>
+      </ul>
+
+      <h5>The Technical Validator / Champion — Secondary path-in &amp; internal advocate</h5>
+      <p>Practitioner who experiences the operational pain first and can validate how cloud cost management works in the real environment.</p>
+      <ul>
+        <li><strong>Key pain points:</strong> unclear cost ownership, manual reporting/reconciliation, anomalies discovered after the fact, tools without enough context</li>
+        <li><strong>Decision criteria:</strong> depth of visibility, low integration effort, workflows that reduce manual investigation, a credible path to show value to leadership</li>
+        <li><strong>Engagement tips:</strong> use practitioner language — workflow, ownership, attribution, investigation time, actionability. Give them a simple internal story to repeat upward</li>
+      </ul>
+
+      <h5>The Financial Buyer — Economic layer &amp; critical-to-close stakeholder</h5>
+      <p>CFO, COO, CEO, Finance Director, or finance leader accountable for budget, predictability, and return on cloud investment.</p>
+      <ul>
+        <li><strong>Key pain points:</strong> cloud is large and unpredictable, finance owns accountability while engineering owns spend, incomplete unit economics/attribution</li>
+        <li><strong>Decision criteria:</strong> predictability and budget control, attribution and leadership-ready reporting, ROI and a low-risk evaluation path</li>
+        <li><strong>Engagement tips:</strong> lead with financial control, business outcomes, confidence in the decision. Avoid opening with product mechanics or cloud-provider terminology</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="bc-section">
+    <summary>
+      <div><div class="s-title">Objection Handling</div><div class="s-sub">When facing resistance</div></div>
+      <span class="chevron">&#9656;</span>
+    </summary>
+    <div class="bc-body">
+      <p>Keep the response short, acknowledge the current state, then identify the gap DCI addresses.</p>
+      <div class="bc-mini" style="margin-bottom:12px;"><h6>"We already have dashboards or native cloud tooling."</h6><p>That's common. The question is whether current tooling gives enough context to explain what's driving spend, attribute it to the right owners, and turn insight into an agreed action. DCI adds a unified multi-cloud view, AI-driven analysis, and human FinOps guidance on top of what you already have.</p></div>
+      <div class="bc-mini" style="margin-bottom:12px;"><h6>"We built something internally."</h6><p>Internal reporting can be useful, but it often creates ongoing maintenance and depends on a few people who understand how it works. DCI gives the team a purpose-built platform plus FinOps expertise, freeing engineers to focus on product and platform priorities.</p></div>
+      <div class="bc-mini" style="margin-bottom:12px;"><h6>"We can manage this manually."</h6><p>Manual management can work until scale, complexity, or leadership scrutiny makes the process too slow. How much time does the team spend reconciling data, investigating anomalies, and preparing the same analysis for different stakeholders?</p></div>
+      <div class="bc-mini" style="margin-bottom:12px;"><h6>"We already use a FinOps tool."</h6><p>The important question is what happens after the tool surfaces the data. DCI connects unified visibility and AI-driven insights with human context, prioritization, and an ongoing roadmap tied to business outcomes.</p></div>
+      <div class="bc-mini" style="margin-bottom:12px;"><h6>"We buy directly from AWS."</h6><p>That doesn't prevent a DCI conversation. The platform and Enterprise FinOps advisory motion can be evaluated around visibility, governance, attribution, and business outcomes — procurement can be discussed separately.</p></div>
+      <div class="bc-mini"><h6>"We don't need another service provider."</h6><p>Understood. DCI isn't a replacement for the customer's engineering team — it combines technology with a Principal FinOps Resident who helps translate cloud data into a prioritized roadmap, while the customer retains implementation ownership.</p></div>
+    </div>
+  </details>
+
+  <details class="bc-section">
+    <summary>
+      <div><div class="s-title">Discovery Questions</div><div class="s-sub">When validating pain</div></div>
+      <span class="chevron">&#9656;</span>
+    </summary>
+    <div class="bc-body">
+      <p>Ask questions that confirm scale, ownership, business impact, and timing.</p>
+      <ul>
+        <li>Which cloud providers are you running on today — AWS, Google Cloud, Azure, or a mix?</li>
+        <li>Approximately how large is monthly cloud spend across those providers?</li>
+        <li>How do you currently understand what's driving spend by product, team, workload, or customer?</li>
+        <li>When finance or the board asks about cloud efficiency, how easy is it to provide a clear answer?</li>
+        <li>Where do cost data, ownership, and business context break down today?</li>
+        <li>How quickly do you detect unexpected spend or changes in usage?</li>
+        <li>How much time does engineering or FinOps spend reconciling bills and investigating anomalies?</li>
+        <li>Do you have an in-house FinOps practice or a named owner for cloud financial management?</li>
+        <li>Which cloud cost-management tools, dashboards, or internal systems are already in place?</li>
+        <li>Are you planning a budgeting cycle, commitment review, tool consolidation, or FinOps maturity initiative?</li>
+        <li>Who owns the technical decision, and who owns the economic decision?</li>
+        <li>Which SRE, platform, finance, or product stakeholders would need to validate the approach?</li>
+      </ul>
+      <h5>Spend qualification proxy questions</h5>
+      <p>Use these when the prospect doesn't want to share spend directly:</p>
+      <ul>
+        <li>What hyperscalers are you running on today?</li>
+        <li>Do you have an in-house FinOps team or practice?</li>
+        <li>Are you using a cloud cost-management tool such as Vantage, CloudZero, Finout, or Apptio?</li>
+        <li>Have you made Savings Plan, Reserved Instance, or similar cloud commitments?</li>
+        <li>Are you hiring for cloud, platform, observability, or FinOps roles that indicate scale?</li>
+      </ul>
+      <div class="bc-callout">Convert when confirmed: real cost/governance/attribution/ROI pressure &middot; limited visibility or manual burden &middot; a technical and economic buyer &middot; a clear business outcome &middot; a reason to act now</div>
+    </div>
+  </details>
+
+  <details class="bc-section">
+    <summary>
+      <div><div class="s-title">Opportunity Notes</div><div class="s-sub">When logging for the AE</div></div>
+      <span class="chevron">&#9656;</span>
+    </summary>
+    <div class="bc-body">
+      <p>Capture enough context for the AE to continue the conversation without making the buyer repeat themselves.</p>
+      <ul>
+        <li><strong>Why now:</strong> trigger, initiative, leadership pressure, or business event driving urgency</li>
+        <li><strong>Account fit:</strong> employee count, cloud providers, estimated spend or proxy, industry/region</li>
+        <li><strong>Pain hypothesis:</strong> e.g. cloud spend scaling faster than visibility, attribution, or governance</li>
+        <li><strong>Best-fit value prop:</strong> unified visibility, attribution, anomaly detection, AI-driven insights, or Principal FinOps Resident guidance</li>
+        <li><strong>Stakeholders:</strong> first persona engaged, technical buyer, economic buyer, champion, next multithread targets</li>
+        <li><strong>Confirmed pain:</strong> exact language about cost pressure, manual burden, fragmented reporting, ROI scrutiny</li>
+        <li><strong>Current state:</strong> native reporting, BI dashboards, internal builds, FinOps tools, commitments, ownership model</li>
+        <li><strong>Business outcome:</strong> predictability, unit economics, governance, efficiency, or executive confidence</li>
+        <li><strong>Timing:</strong> budget cycle, commitment review, renewal, tooling decision, or leadership deadline</li>
+        <li><strong>Next step / CTA:</strong> agreed action, attendees, agenda, and timing</li>
+      </ul>
+      <div class="bc-quote">Example: Why now — finance is asking for stronger multi-cloud visibility for the next planning cycle. Fit — 1,000+ employees, AWS + GCP, in-house platform team, ~$500K+ monthly spend based on proxy signals. Pain — cost isn't attributed to products/teams, anomaly investigation is manual. Stakeholders — VP Engineering engaged; CFO and SRE lead to be multithreaded. CTA — 30-minute discovery on attribution, governance, and the current FinOps operating model.</div>
+    </div>
+  </details>
+
+  <details class="bc-section">
+    <summary>
+      <div><div class="s-title">Multi-Threading</div><div class="s-sub">When expanding the deal</div></div>
+      <span class="chevron">&#9656;</span>
+    </summary>
+    <div class="bc-body">
+      <p>DCI Direct opportunities need both technical and economic coverage. Multithread after pain is validated, not as a substitute for relevance.</p>
+      <h5>Who to add — and why</h5>
+      <ul>
+        <li><strong>Technical buyer:</strong> confirms strategic fit and approves platform direction</li>
+        <li><strong>Economic buyer:</strong> owns budget, accountability, and ROI</li>
+        <li><strong>Technical validator / champion:</strong> validates data, workflows, integration effort, feasibility</li>
+        <li><strong>SRE or platform stakeholder:</strong> power-user perspective, tests the operating model</li>
+        <li><strong>Finance or product stakeholder:</strong> connects spend to allocation, unit economics, business outcomes</li>
+      </ul>
+      <h5>How to do it well</h5>
+      <ul>
+        <li>Multithread once the initial pain is confirmed</li>
+        <li>Use the first stakeholder's language and context when opening the next thread</li>
+        <li>Prioritize warm paths and shared initiatives before cold outreach</li>
+        <li>Don't over-index on SRE/practitioner interest without executive sponsorship</li>
+        <li>For active opportunities, expand to 5–10 contacts across IC, director, VP, and C-level</li>
+        <li>If no accountable owner emerges after reasonable multithreading, hold or deprioritize the account</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="bc-section">
+    <summary>
+      <div><div class="s-title">Call Handoffs</div><div class="s-sub">When routing to the AE</div></div>
+      <span class="chevron">&#9656;</span>
+    </summary>
+    <div class="bc-body">
+      <p>A clean handoff protects momentum and keeps the buyer from repeating the same story.</p>
+      <div class="bc-grid">
+        <div class="bc-mini"><h6>Before the handoff</h6><p>Confirm account fit, real pain, an owner, and a reason to act. Confirm/estimate cloud scale. Complete Opportunity Notes. Identify both buying paths. Match the CTA to the persona.</p></div>
+        <div class="bc-mini"><h6>During the transition</h6><p>Introduce the AE with a one-line "why now." State confirmed pain in the buyer's own language. Set the agenda and expected outcome. Share cloud-provider context, tooling, stakeholder map, and timing.</p></div>
+      </div>
+      <div class="bc-callout">Don't overpromise implementation, direct cloud changes, FDE entitlement, or savings outcomes.</div>
+      <h5>After the handoff</h5>
+      <ul>
+        <li>Review open opportunities with the AE pairing weekly</li>
+        <li>Track which triggers, objections, and CTAs convert</li>
+        <li>Feed winning language and recurring gaps back into prospecting guidance</li>
+      </ul>
+      <h5>CTA by role</h5>
+      <ul>
+        <li><strong>Technical validator / champion:</strong> current-state visibility, attribution, workflow, integration discovery</li>
+        <li><strong>Technical buyer:</strong> business case, governance, implementation effort, executive visibility</li>
+        <li><strong>Economic buyer:</strong> budget accountability, unit economics, ROI, expected outcomes</li>
+        <li><strong>SRE / platform stakeholder:</strong> power-user workflow, anomaly response, ownership, operational adoption</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="bc-section">
+    <summary>
+      <div><div class="s-title">Outreach &amp; Sequencing</div><div class="s-sub">When executing touches</div></div>
+      <span class="chevron">&#9656;</span>
+    </summary>
+    <div class="bc-body">
+      <div class="bc-grid">
+        <div class="bc-mini"><h6>Cold Email — 120–150 words</h6><p>Personalized trigger &rarr; one concrete cloud-financial problem &rarr; relevant DCI outcome &rarr; low-commitment CTA.</p></div>
+        <div class="bc-mini"><h6>Cold Call — problem first</h6><p>Permission-based opener &rarr; one role-specific problem &rarr; discovery question &rarr; relevant next step.</p></div>
+      </div>
+      <div class="bc-mini" style="margin-bottom:14px;"><h6>LinkedIn — 2–3 short sentences</h6><p>Keep it brief and conversational. Reference a relevant company initiative, leadership change, cloud signal, or shared topic. Lead with the problem, not a product list.</p></div>
+      <h5>Sequence principles</h5>
+      <ul>
+        <li>Use a meaningful account trigger whenever possible</li>
+        <li>Change the angle by persona: operational context for champions, business outcomes for technical leaders, predictability/ROI for finance</li>
+        <li>Keep every touch focused on one problem and one next step</li>
+        <li>Use calls to test relevance, email to provide context, and LinkedIn to build familiarity</li>
+        <li>Stop or adjust when the message isn't resonating — don't increase volume to compensate for weak relevance</li>
+      </ul>
+      <div class="bc-callout">Need the full cadences? Use the DCI Attribute and DCI Closed Lost cadences linked in <a href="../steps/step-09.html" style="color:#ff9fb6;">Step 9: Afternoon Cold Calls + Cold Emails</a>.</div>
+    </div>
+  </details>
+
 </div>
 
 <footer class="pagefoot">
   <span>Confidential — Internal Use Only</span>
   <span class="logo">do<span style="color:var(--pink);">it</span></span>
 </footer>
-
 </body>
 </html>

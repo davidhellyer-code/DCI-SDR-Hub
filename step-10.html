@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Step 10: Daily Recap — DCI Hub</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="topnav">
+  <div class="nav-inner">
+    <a class="logo" href="../index.html">do<span>it</span></a>
+    <input class="search" type="text" placeholder="Search the hub...">
+    <nav class="navlinks">
+      <a href="../index.html" class="active">Day in the Life</a>
+      <a href="../battlecards/index.html">Battlecards</a>
+      <a href="../resources/index.html">Resources</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap narrow">
+  <a class="back" href="../index.html">&#8592; Back to Day in the Life</a>
+  <div class="sub-num">STEP 10</div>
+  <h2 class="sub-title">Daily Recap</h2>
+  <p class="sub-desc">Review KPIs and reset priorities for tomorrow. Fill in your numbers below, then copy the recap to paste to your manager.</p>
+
+  <div class="panel">
+    <h4>KPI Recap</h4>
+    <div class="form-grid">
+      <label>Meetings Booked<input type="text" id="f-meetings" placeholder="0"></label>
+      <label>Calls Made<input type="text" id="f-calls" placeholder="0"></label>
+      <label>Conversations Had<input type="text" id="f-convos" placeholder="0"></label>
+      <label>Emails Sent<input type="text" id="f-emails" placeholder="0"></label>
+      <label>LinkedIn Messages Sent<input type="text" id="f-linkedin" placeholder="0"></label>
+    </div>
+    <label class="full">Priorities adjusted for tomorrow/remainder of week
+      <textarea id="f-priorities" rows="4" placeholder="What's changing for tomorrow..."></textarea>
+    </label>
+  </div>
+
+  <button class="btn" onclick="copyRecap()">Copy recap</button>
+  <div class="copy-feedback" id="copyFeedback">Copied to clipboard &#10003;</div>
+
+  <div class="step-nav">
+    <a href="step-09.html">← Afternoon Cold Calls + Emails</a>
+    <span></span>
+  </div>
+</div>
+
+<footer class="pagefoot">
+  <span>Confidential — Internal Use Only</span>
+  <span class="logo">do<span style="color:var(--pink);">it</span></span>
+</footer>
+
+<script>
+function copyRecap(){
+  const v = id => document.getElementById(id).value || '—';
+  const text = `KPI Recap:
+- Meetings Booked: ${v('f-meetings')}
+- Calls Made: ${v('f-calls')}
+- Conversations Had: ${v('f-convos')}
+- Emails Sent: ${v('f-emails')}
+- LinkedIn Messages Sent: ${v('f-linkedin')}
+
+Priorities adjusted for tomorrow/remainder of week:
+${v('f-priorities')}
+`;
+  navigator.clipboard.writeText(text).then(()=>{
+    const el = document.getElementById('copyFeedback');
+    el.classList.add('show');
+    setTimeout(()=>el.classList.remove('show'), 2000);
+  });
+}
+</script>
+</body>
+</html>
