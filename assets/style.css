@@ -149,6 +149,11 @@ ul.bullets li span{color:var(--text-dim); font-size:14px;}
 .copy-feedback{font-size:13px; color:#8fffb0; margin-top:12px; height:16px; opacity:0; transition:opacity 0.2s ease;}
 .copy-feedback.show{opacity:1;}
 
+.quote-panel{
+  background:var(--pink-soft); border:1px solid rgba(255,51,102,0.25); border-radius:14px;
+  padding:20px 24px; font-size:15px; font-weight:600; color:#ffcdd9;
+  line-height:1.5; margin-bottom:24px;
+}
 .form-grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:18px;}
 .form-grid label, label.full{
   display:flex; flex-direction:column; gap:8px; font-size:12.5px;
